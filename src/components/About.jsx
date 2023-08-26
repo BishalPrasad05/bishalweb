@@ -21,7 +21,7 @@ function About() {
             Download CV
           </button> */}
 
-                        <button className="resume-button" onClick={window.open('./resume/Bishal_Prasad_resume-1.pdf')}>Download CV</button>
+                        <button className="resume-button">Download CV</button>
                        {/* <img src="./images/about.jpg" alt="about-img" /> */}
                     </div>
                 </div>

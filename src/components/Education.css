@@ -1,7 +1,4 @@
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
+
 
 .timeline {
     position: relative;
@@ -158,3 +155,76 @@ h1 {
         right: inherit;
     }
 }
+
+
+/* .............................................my css */
+
+
+.education-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* background-color: #c5c5c5; */
+
+}
+
+.education-container .timeline{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    flex: 1;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    /* box-sizing: border-box; */
+    /* background-color: aqua; */
+}
+
+/* .education-container .timeline:before{
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+} */
+
+
+.education-img{
+    background-color: bisque;
+    /* width: 100%; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    margin: 0 auto; */
+    padding: 0;
+    /* flex: 1; */
+    box-sizing: border-box;
+}
+
+.education-img img{
+    width: 500px;
+}
+
+.education-heading{
+    text-align: center;
+    /* font-size: 40px; */
+    /* font-weight: 600; */
+    margin-bottom: 50px;
+}
+
+
+.education-heading h5{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    /* column-gap: 0px; */
+}
+
+
+.education-heading h1{
+    font-family: 'Baloo Paaji 2', cursive;
+        font-size: 50px;
+        color: #695aa6;
+}
+
