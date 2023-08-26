@@ -1,16 +1,29 @@
 
 import "./About.css";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+
+    useEffect(() => {
+        AOS.init({
+            offset: 200,
+      duration: 400,
+      easing: 'ease-in-sine',
+      delay: 100,
+        });
+      }, [])
 
     return (
         <>
             <div className="about-container">
-                <div className="about">
+                <div className="about" data-aos="fade-right">
                     <div className="about-img">
                         <img src="./images/about2.png" alt="about-img" />
                     </div>
-                    <div className="about-contents">
+                    <div className="about-contents" data-aos="fade-down">
                         <h4>Who Am I ?</h4>
                         <h1>About Me</h1>
                         <p>

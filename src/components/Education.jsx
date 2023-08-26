@@ -1,24 +1,38 @@
 /* eslint-disable react/style-prop-object */
 import "./Education.css";
 
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Education() {
+
+  useEffect(() => {
+        AOS.init({
+            offset: 100,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+        });
+      }, [])
 
     return (
         <>
             
-        <div className="education-heading">
+        <div className="education-heading" data-aos="fade-down">
           <h1>Academic Journey</h1>
         <h5>--Building Foundations for a Bright Tomorrow--</h5>
         </div>
         <div className="education-container">
-          <div className="education-img">
+          <div className="education-img" data-aos="fade-right">
             <img src="./images/education.jpg" alt="" />
           </div>
           <div className="education-timeline">
             <div className="timeline">
     <ul>
       
-      <li>
+      <li data-aos="fade-down">  
         <div className="content">
           <h3>B.Tech in CSE</h3>
                 <b><p>B.P. Poddar Institute of Management & Technology</p></b>
@@ -32,7 +46,7 @@ function Education() {
         </div>
       </li>
       
-      <li>
+      <li data-aos="fade-down">
         <div className="content">
           <h3>HSC/Intermediate</h3>
                 <b><p>RLJDMC DAV Public School. </p></b>
@@ -44,7 +58,7 @@ function Education() {
         </div>
       </li>
       
-      <li>
+      <li data-aos="fade-down">
         <div className="content">
                 <h3>Matriculation</h3>
                 <b><p>Jawaharlal Nehru Memorial Senior Secondary School</p></b>

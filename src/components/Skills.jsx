@@ -1,16 +1,29 @@
 import "./Skills.css";
 
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Skills() {
+    useEffect(() => {
+        AOS.init({
+            offset: 100,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+        });
+      }, [])
     return (
         <>
             <div className="skills-container">
 
-                <div className="skills-heading">
+                <div className="skills-heading" data-aos="fade-down">
                     <h1>Skills</h1>
 
                     <h6>--Showcasing the tools in my toolkit--</h6>
                 </div>
-                <div className="skills-section">
+                <div className="skills-section" data-aos="fade-down">
                     <div className="skill">
                         <div className="skill-name-image">
                             <div className="skill-name">

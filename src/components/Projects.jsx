@@ -1,8 +1,21 @@
 import { useState } from "react";
 import "./Projects.css";
 
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() { 
+    
+useEffect(() => {
+        AOS.init({
+            offset: 200,
+      duration: 400,
+      easing: 'ease-in-sine',
+      delay: 100,
+        });
+      }, [])
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
@@ -16,13 +29,13 @@ function Projects() {
     return (
         <>
             <div className="projects-container">
-                <div className="projects-title">
+                <div className="projects-title" data-aos="fade-down">
                     <h1>Projects By Me</h1>
                 </div>
-                <div className="projects-description">
+                <div className="projects-description" data-aos="fade-down">
                 <h6>--Each project is a chapter in my journey, illustrating the evolution of my skills and vision--</h6>
                 </div>
-                <div className="tab-view">
+                <div className="tab-view" data-aos="fade-up">
                     <div className={toggleState===1?"commonTab activeTab":"commonTab"}
                     onClick={()=>toggleTab(1)}
                     >
@@ -39,10 +52,10 @@ function Projects() {
                         <span>Web</span>
                     </div>
                 </div>
-                <div className="projects">
+                <div className="projects" data-aos="fade-up">
 
                     <div className={toggleState===1?"projects":"hide-content"}>
-                        <div className="melo projects-common">
+                        <div className="melo projects-common" >
                             <img src="./projects/melo.svg" alt="" />
                             <div className="music-div">
                             <h1>Melo (Music-Player)</h1>
