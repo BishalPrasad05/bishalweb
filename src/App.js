@@ -16,7 +16,7 @@ function App() {
     setShow(true)
     setTimeout(() => {
       setShow(false)
-    }, 3000)
+    }, 3500)
   },[])
   return (
     <>
