@@ -62,14 +62,14 @@ function Contact() {
             </div>
 
             <div className="contact-form">
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact" method="POST" data-netlify="true" onSubmit={"submit"}>
                 <div className="form-name" data-aos="fade-left">
                   <i className="fa-solid fa-user"></i>
                   <input
                     className="input-ne"
                     type="text"
                     id="name"
-                    name="Visitor's-Name "
+                    name="name"
                     placeholder="Name"
                   ></input>
                 </div>
@@ -81,7 +81,7 @@ function Contact() {
                     className="input-ne"
                     type="text"
                     id="email"
-                    name="Visitor's-Email"
+                    name="email"
                     placeholder="Email"
                   ></input>
                 </div>
@@ -90,7 +90,7 @@ function Contact() {
                   <textarea
                     id="subject"
                     className="scrolll"
-                    name="Message"
+                    name="message"
                     placeholder="Write something.."
                   ></textarea>
                 </div>
@@ -98,7 +98,7 @@ function Contact() {
                 <input
                   className="form-button"
                   type="submit"
-                  value="Submit"
+                  value="submit"
                 ></input>
               </form>
             </div>
