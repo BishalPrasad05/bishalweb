@@ -16,7 +16,7 @@ function Skills() {
       }, [])
     return (
         <>
-            <div className="skills-container">
+            <div id="skills" className="skills-container">
 
                 <div className="skills-heading" data-aos="fade-down">
                     <h1>Skills</h1>

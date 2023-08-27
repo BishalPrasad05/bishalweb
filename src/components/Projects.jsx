@@ -28,7 +28,7 @@ useEffect(() => {
 
     return (
         <>
-            <div className="projects-container">
+            <div id="projects" className="projects-container">
                 <div className="projects-title" data-aos="fade-down">
                     <h1>Projects By Me</h1>
                 </div>

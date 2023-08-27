@@ -6,6 +6,7 @@
     align-items: center;
     margin: 0 auto;
     width: 100%;
+    overflow: hidden;
     height: 80vh;
     /* padding: 20px; */
     background-color: #fff;
@@ -269,3 +270,80 @@ form input{
     font-size: 20px;
     color: red;
 }
+
+
+
+
+@media only screen and (max-width: 1024px) {
+ .contact-main{
+        margin-bottom: 100px;
+ }
+  
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .contact-main{
+    /* background-color: red; */
+    width: 100%;
+    
+
+  }
+  .contact-form{
+    /* padding: 10px; */
+    width: 100%;
+    margin-right: 40px;
+    /* display: flex; */
+  }
+  .contact-image img{
+    padding: 0px;
+    margin: 0px;
+  }
+  .contact-image{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .contact-details{
+    width: 100%;
+    margin: 0px;
+    padding-left: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  .main-contact-body{
+    flex-direction: column;
+    
+  }
+  .contact-container{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .form-message{
+    width: 100%;
+  }
+  .contact-form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .email{
+    width: 360px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .phone-number{
+    width: 360px;
+  }
+
+}
+

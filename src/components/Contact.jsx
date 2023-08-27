@@ -18,7 +18,7 @@ function Contact() {
     return (
         
         <>
-            <div className="contact-container">
+            <div id="contact" className="contact-container">
                 <div className="contact-main">
                     <div className="form-heading" data-aos="fade-down">
                             <h1>Get In Touch</h1>
@@ -60,7 +60,7 @@ function Contact() {
 
                             </div>
                             
-                            <div className="form-message" data-aos="fade-left">
+                            <div className="form-message" >
                             <textarea id="subject" className="scrolll" name="subject" placeholder="Write something.."></textarea>
                             
                             </div>

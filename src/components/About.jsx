@@ -18,7 +18,7 @@ function About() {
 
     return (
         <>
-            <div className="about-container">
+            <div id="about" className="about-container">
                 <div className="about" data-aos="fade-right">
                     <div className="about-img">
                         <img src="./images/about2.png" alt="about-img" />

@@ -132,7 +132,7 @@ function ParticleBg() {
         "retina_detect": true,
         "background": {
             // "color": "#ff000010",
-            "image": "url('./images/intro-bg.jpg')",
+            "image": "url('./images/intro-bg-min-min.jpg')",
             "filter":"brightness(0.9)",
             "position": "50% 50%",
             "repeat":"no-repeat",
