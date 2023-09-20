@@ -237,7 +237,7 @@ function Projects() {
         </div>
 
         <div className="SeeallButton">
-          <button>
+          <button data-aos="fade-up">
             <a
               href="https://github.com/Bishal-P?tab=repositories"
               target="_blank"

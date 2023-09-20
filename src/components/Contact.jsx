@@ -62,7 +62,7 @@ function Contact() {
             </div>
 
             <div className="contact-form">
-              <form name="contact" method="POST" data-netlify="true" onSubmit={"submit"}>
+              <form name="contact" netlify>
                 <div className="form-name" data-aos="fade-left">
                   <i className="fa-solid fa-user"></i>
                   <input
@@ -95,11 +95,13 @@ function Contact() {
                   ></textarea>
                 </div>
 
-                <input data-aos="fade-left"
+                <button
                   className="form-button"
                   type="submit"
-                  value="submit"
-                ></input>
+                  data-aos="fade-right"
+                >
+                  Submit
+                </button>
               </form>
             </div>
           </div>

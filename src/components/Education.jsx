@@ -1,33 +1,28 @@
-
 import "./Education.css";
 
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Education() {
-
   useEffect(() => {
-        AOS.init({
-            offset: 100,
+    AOS.init({
+      offset: 100,
       duration: 600,
-      easing: 'ease-in-sine',
+      easing: "ease-in-sine",
       delay: 100,
-        });
-      }, [])
+    });
+  }, []);
 
-    return (
-      <>
+  return (
+    <>
+      <div className="main-education-container">
+        <div id="education" className="education-heading" data-aos="fade-down">
+          <h1>Academic Journey</h1>
+          <h5>--Building Foundations for a Bright Tomorrow--</h5>
+        </div>
         <div className="education-container">
-          <div
-            id="education"
-            className="education-heading"
-            data-aos="fade-down"
-          >
-            <h1>Academic Journey</h1>
-            <h5>--Building Foundations for a Bright Tomorrow--</h5>
-          </div>
           <div className="education-img" data-aos="fade-right">
             <img src="./images/education.svg" alt="" />
           </div>
@@ -82,10 +77,9 @@ function Education() {
             </div>
           </div>
         </div>
-      </>
-    );
-
+      </div>
+    </>
+  );
 }
-
 
 export default Education;
