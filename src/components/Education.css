@@ -178,6 +178,7 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  height: 100%;
 }
 
 .education-container .timeline {

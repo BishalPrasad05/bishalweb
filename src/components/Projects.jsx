@@ -147,7 +147,7 @@ function Projects() {
                 </p>
                 <button>
                   <a
-                    href="https://github.com/Bishal-prasad05/weather-app"
+                    href="https://github.com/Bishal-P/Contact-App"
                     target="_blank"
                     className="xyz"
                     rel="noreferrer"
@@ -164,7 +164,7 @@ function Projects() {
                 <p>A simple music player in flutter for android devices.</p>
                 <button>
                   <a
-                    href="https://github.com/Bishal-prasad05/URL-Shortner"
+                    href="https://github.com/Bishal-P/Melo"
                     target="_blank"
                     className="xyz"
                     rel="noreferrer"
@@ -186,7 +186,7 @@ function Projects() {
                 <p>A todo app using html css and js with history storage.</p>
                 <button>
                   <a
-                    href="https://github.com/Bishal-prasad05/Todo-App"
+                    href="https://github.com/Bishal-P/Todo-App"
                     className="xyz"
                     target="_blank"
                     rel="noreferrer"
@@ -204,7 +204,7 @@ function Projects() {
                 <p>A html css and js based weather forcasting app.</p>
                 <button>
                   <a
-                    href="https://github.com/Bishal-prasad05/weather-app"
+                    href="https://github.com/Bishal-P/weather-app"
                     target="_blank"
                     className="xyz"
                     rel="noreferrer"
@@ -223,7 +223,7 @@ function Projects() {
                 </p>
                 <button>
                   <a
-                    href="https://github.com/Bishal-prasad05/URL-Shortner"
+                    href="https://github.com/Bishal-P/URL-Shortner"
                     target="_blank"
                     className="xyz"
                     rel="noreferrer"
@@ -239,7 +239,7 @@ function Projects() {
         <div className="SeeallButton">
           <button>
             <a
-              href="https://github.com/Bishal-prasad05?tab=repositories"
+              href="https://github.com/Bishal-P?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >

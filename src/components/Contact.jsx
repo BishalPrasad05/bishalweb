@@ -95,7 +95,7 @@ function Contact() {
                   ></textarea>
                 </div>
 
-                <input
+                <input data-aos="fade-left"
                   className="form-button"
                   type="submit"
                   value="submit"
