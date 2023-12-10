@@ -24,7 +24,7 @@ function Education() {
         </div>
         <div className="education-container">
           <div className="education-img" data-aos="fade-right">
-            <img src="./images/education.svg" alt="" />
+            <img src="./images/education.svg" alt="Bishal Prasad" />
           </div>
           <div className="education-timeline">
             <div className="timeline">

@@ -9,6 +9,42 @@
   overflow: hidden;
 }
 
+
+.tab-view {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  cursor: pointer;
+  width: auto;
+  border: 1px solid rgb(77, 77, 77);
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.hide-content {
+  display: none;
+}
+
+.activeTab {
+  background-color: #9b69eb;
+}
+
+.commonTab {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 0px;
+  border-radius: 20px;
+  transition: background-color 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
 .projects-title {
   font-size: 1.5rem;
   font-family: "Baloo Paaji 2", cursive;
@@ -179,16 +215,22 @@ a {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 425px) {
   .projects {
     height: 100%;
     padding-bottom: 0.5px;
+    margin-bottom: 0px;
+    /* padding-bottom: 0px; */
+
+  }
+  .SeeallButton{
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
-  .education-heading {
-    font-size: 2.5rem;
+  .projects-title h1 {
+    font-size: 35px;
   }
-
   .projects-common {
     width: 300px;
     height: 250px;
@@ -197,39 +239,25 @@ a {
   .music-div {
     bottom: -165px;
   }
+  .tab-view{
+    width: 350px;
+    margin-top: 10px;
+  }
 }
 
-.tab-view {
-  display: flex;
-  font-family: "Open Sans", sans-serif;
 
-  margin-top: 40px;
-  margin-bottom: 40px;
+@media only screen and (max-width: 768px) {
+  .SeeallButton{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .projects {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0.5px;
+    margin-bottom: 0px;
+    /* padding-bottom: 0px; */
 
-  cursor: pointer;
-  width: auto;
-  border: 1px solid rgb(77, 77, 77);
+  }
 
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-}
-
-.hide-content {
-  display: none;
-}
-
-.activeTab {
-  background-color: #9b69eb;
-}
-
-.commonTab {
-  width: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  height: 0px;
-  border-radius: 20px;
-  transition: background-color 1s cubic-bezier(0.19, 1, 0.22, 1);
 }

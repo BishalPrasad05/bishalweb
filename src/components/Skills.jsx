@@ -104,7 +104,7 @@ function Skills() {
           <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
-                <h3>javascript</h3>
+                <h3>js</h3>
               </div>
               <div className="skill-image">
                 <img src="./skills/js.png" alt="Javascript" />

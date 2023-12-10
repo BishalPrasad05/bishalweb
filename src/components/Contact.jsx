@@ -33,7 +33,7 @@ function Contact() {
               <div className="contact-image" data-aos="fade-right">
                 <img src="./images/Mention.gif" alt="contact gif" />
               </div>
-              <div className="contact-details" data-aos="fade-down">
+              <div className="contact-details2" data-aos="fade-down">
                 <div className="phone-number">
                   <a href="tel:7318843250" target="_blank" rel="noreferrer">
                     <i className="fa-solid fa-phone"></i>
@@ -98,7 +98,6 @@ function Contact() {
                 <button
                   className="form-button"
                   type="submit"
-                  data-aos="fade-right"
                 >
                   Submit
                 </button>

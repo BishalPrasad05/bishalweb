@@ -24,7 +24,7 @@ function About() {
           <div className="about-contents" data-aos="fade-down">
             <h4>Who Am I ?</h4>
             <h1>About Me</h1>
-            <p>
+            <p name="about" className="about-para">
               I am a student of Computer Science and Engineering at B.P. Poddar
               Institute of Management & Technology. I am a passionate
               programmer, an App developer & web developer. I am also interested

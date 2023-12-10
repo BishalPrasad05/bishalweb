@@ -2,6 +2,7 @@
   "name": "bishalweb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bishal-prasad05.netlify.app/",
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.1",

@@ -40,11 +40,14 @@ function Home() {
         <div className="main-container">
           <div className="profile">
             <div className="home_img">
-              <img src="./images/bishal.jpg" alt="Bishal Prasad" />
+              <img src="./images/bishal-prasad-portfolio.jpg" alt="Bishal Prasad portfolio"/>
             </div>
-            <p className="hello-text">Hello, World !</p>
+            <p className="hello-text" >Hello, World !</p>
 
-            <p className=" name">I'm Bishal Prasad.</p>
+            {/* <p className=" name">I'm Bishal Prasad.</p> */}
+           <div className="welcome"><span className="name">I'm &nbsp;</span>
+            <h1 className="name title">Bishal Prasad</h1>
+            <span className="name">.</span></div> 
             <p className="typing">
               {" "}
               <Typewriter
@@ -61,7 +64,7 @@ function Home() {
             </p>
           </div>
           <div className="menu-links">
-            <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
+            <Link to="home" spy={true} smooth={true} offset={0} duration={1000}>
               Home
             </Link>
             <Link
@@ -69,7 +72,7 @@ function Home() {
               spy={true}
               smooth={true}
               offset={-50}
-              duration={500}
+              duration={1000}
             >
               About
             </Link>
@@ -78,7 +81,7 @@ function Home() {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={1000}
             >
               Education
             </Link>
@@ -87,7 +90,7 @@ function Home() {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={1000}
             >
               Skills
             </Link>
@@ -96,7 +99,7 @@ function Home() {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={1000}
             >
               Projects
             </Link>
@@ -105,7 +108,7 @@ function Home() {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={1000}
             >
               Contact
             </Link>

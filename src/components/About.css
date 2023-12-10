@@ -120,7 +120,14 @@
   .about-contents h4 {
     text-align: center;
   }
+  .about-contents h1{
+    font-size: 35px;
+  }
   .about {
     flex-direction: column;
+  }
+  .about-para{
+    height: auto;
+    padding-left: 10px;
   }
 }

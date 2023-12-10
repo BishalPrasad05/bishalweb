@@ -70,3 +70,37 @@
   height: 100px;
   gap: 10px;
 }
+
+@media screen and (max-width: 425px) {
+  .skills-container{
+    margin: 0px;
+
+  }
+  .skills-heading h1{
+    font-size: 35px;
+  }
+  .skills-section{
+    /* width: 80px; */
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+  }
+  .skill{
+    width:129px;
+    padding: 0px;
+    /* gap: 0px; */
+  }
+  .skill-name-image{
+    gap:2px;
+  }
+  .skills-section{
+    gap: 0px;
+  }
+  .skills-heading{
+    margin-bottom: 0px;
+  }
+  .skills-heading h6{
+    margin-bottom: 10px;
+  }
+  
+}
