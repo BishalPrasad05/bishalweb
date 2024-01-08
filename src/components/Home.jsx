@@ -2,14 +2,32 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import ParticleBg from "./ParticleBg";
 
+import Spline from '@splinetool/react-spline';
+
+import Background1 from "./Background1";
+
+import React from 'react';
+
+
+
 import { Link } from "react-scroll";
 
 function Home() {
+
+//   const canvas = document.getElementsByClassName('.parc');
+// const app = new Application(canvas);
+// app.load('https://prod.spline.design/jkRcRq2vx4WrLeAx/scene.splinecode');
   return (
     <>
-      <div className="parc">
-        <ParticleBg />
-      </div>
+
+      <Background1/>
+      {/* <div className="parc">
+      <Spline scene="https://prod.spline.design/fEyZazpFnoIGCkNF/scene.splinecode" /> */}
+        {/* <ParticleBg /> */}
+        {/* <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.19/build/spline-viewer.js"></script>
+    <spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/RUH7k1xcBqMF4B70/scene.splinecode"></spline-viewer> */}
+
+      {/* </div> */}
       <div className="home-container-img">
         <div className="left-side-links ">
           <a
@@ -169,3 +187,5 @@ function Home() {
 }
 
 export default Home;
+
+
