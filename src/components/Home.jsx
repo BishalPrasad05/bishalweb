@@ -1,33 +1,17 @@
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import ParticleBg from "./ParticleBg";
-
-import Spline from '@splinetool/react-spline';
+// import ParticleBg from "./ParticleBg";
 
 import Background1 from "./Background1";
 
-import React from 'react';
-
-
+import React from "react";
 
 import { Link } from "react-scroll";
 
 function Home() {
-
-//   const canvas = document.getElementsByClassName('.parc');
-// const app = new Application(canvas);
-// app.load('https://prod.spline.design/jkRcRq2vx4WrLeAx/scene.splinecode');
   return (
     <>
-
-      <Background1/>
-      {/* <div className="parc">
-      <Spline scene="https://prod.spline.design/fEyZazpFnoIGCkNF/scene.splinecode" /> */}
-        {/* <ParticleBg /> */}
-        {/* <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.19/build/spline-viewer.js"></script>
-    <spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/RUH7k1xcBqMF4B70/scene.splinecode"></spline-viewer> */}
-
-      {/* </div> */}
+      <Background1 />
       <div className="home-container-img">
         <div className="left-side-links ">
           <a
@@ -39,7 +23,7 @@ function Home() {
           </a>
 
           <a
-            href="https://github.com/bishal-p/"
+            href="https://github.com/bishalprasad05/"
             target="_blank"
             rel="noreferrer"
           >
@@ -58,14 +42,19 @@ function Home() {
         <div className="main-container">
           <div className="profile">
             <div className="home_img">
-              <img src="./images/bishal-prasad-portfolio.jpg" alt="Bishal Prasad portfolio"/>
+              <img
+                src="./images/bishal-prasad-portfolio.jpg"
+                alt="Bishal Prasad portfolio"
+              />
             </div>
-            <p className="hello-text" >Hello, World !</p>
+            <p className="hello-text">Hello, World !</p>
 
             {/* <p className=" name">I'm Bishal Prasad.</p> */}
-           <div className="welcome"><span className="name">I'm &nbsp;</span>
-            <h1 className="name title">Bishal Prasad</h1>
-            <span className="name">.</span></div> 
+            <div className="welcome">
+              <span className="name">I'm &nbsp;</span>
+              <h1 className="name title">Bishal Prasad</h1>
+              <span className="name">.</span>
+            </div>
             <p className="typing">
               {" "}
               <Typewriter
@@ -190,5 +179,3 @@ function Home() {
 }
 
 export default Home;
-
-
