@@ -210,7 +210,9 @@ form input {
 
 @media only screen and (max-width: 768px) {
   .contact-main {
+    margin-top: 20px;
     width: 100%;
+    padding: 0px;
   }
   .contact-form {
     width: 100%;
@@ -227,15 +229,27 @@ form input {
     padding: 0px;
   }
   .contact-details {
-    width: 100%;
+    width: 80%;
     margin: 0px;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .email,.phone-number{
+    font-size: 20px;
+    padding: 0px;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .main-contact-body {
     flex-direction: column;
+  }
+  .form-heading h1{
+    font-size: 35px;
+  }
+  .contact-image img{
+    height: 200px;
+    width: auto;
   }
   .contact-container {
     height: 100%;
@@ -256,8 +270,28 @@ form input {
     width: 360px;
     padding: 0px;
     margin: 0px;
+    font-size: 20px;
   }
   .phone-number {
-    width: 360px;
+    width: auto;
+    height: 30px;
+    font-size: 20px;
   }
+  .contact-details i{
+    /* width: 100%; */
+    margin: 20px;
+    /* padding-left: 15px; */
+    font-size: 20px;
+  }
+  /* .contact-form{
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+  } */
+  
+  .form-name input{
+    padding: 0px;
+    margin: 0px;
+  }
+  
 }

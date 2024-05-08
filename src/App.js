@@ -22,7 +22,7 @@ function App() {
         {
         show ?
           <div className="loader">
-            <HashLoader color="#00ffcc" loading={show} size={200} />
+            <HashLoader color="#00ffcc" loading={show} size={100} />
           </div>
             :
             <>
