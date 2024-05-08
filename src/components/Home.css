@@ -1,5 +1,3 @@
-
-
 .home-container-img {
   background-color: #00000000;
   height: 100vh;
@@ -8,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 50px 300px 2px rgb(193, 225, 255);
-
 }
 
 .home-container-img img {
@@ -27,10 +24,8 @@
   z-index: -2;
   overflow: hidden;
   position: absolute;
-  filter: brightness(0.6);
-
+  filter: brightness(0.9);
 }
-
 
 .home-container h1 {
   color: white;
@@ -84,7 +79,7 @@
   /* margin-bottom: 30px; */
   /* background-color: #fff; */
   border-radius: 20px;
-  border-top:2px solid #e43838;
+  border-top: 2px solid #e43838;
   font-weight: bold;
   /* padding: 10px; */
   padding-left: 10px;
@@ -151,7 +146,7 @@
   margin-bottom: 80px;
   display: inline-block;
   width: 100%;
-  }
+}
 
 .typing {
   position: relative;
@@ -168,7 +163,7 @@
   font-weight: 800;
   color: #fff;
   text-align: center;
- font-family: "Baloo Paaji 2", cursive;
+  font-family: "Baloo Paaji 2", cursive;
 }
 .links {
   margin-top: 100px;
@@ -186,88 +181,81 @@ i:hover {
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.mobile-links{
-    display: none;
-  }
-
-@media only screen and (max-width: 1024px) {
-  .name{
-    font-size: 50px;
-  }
-  .menu-links a{
-    font-size: 18px;
-  }
-  
-
+.mobile-links {
+  display: none;
 }
 
-
+@media only screen and (max-width: 1024px) {
+  .name {
+    font-size: 50px;
+  }
+  .menu-links a {
+    font-size: 18px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
-  .welcome{
+  .welcome {
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
   }
-  .home-container-img{
+  .home-container-img {
     height: 100vh;
   }
-  .right-side-links{
+  .right-side-links {
     display: none;
   }
-   .left-side-links{
+  .left-side-links {
     display: none;
   }
-  .profile{
+  .profile {
     width: 100vw;
   }
-  .typing{
+  .typing {
     font-size: 15px;
   }
-  .name{
+  .name {
     padding-top: 20px;
   }
-  .menu-links{
+  .menu-links {
     width: 80%;
     margin-bottom: 30px;
-   
   }
 }
 
 @media only screen and (max-width: 425px) {
-
-  .profile{
+  .profile {
     justify-content: center;
     align-items: center;
   }
-  .home-container-img{
+  .home-container-img {
     height: 100vh;
   }
 
-  .mobile-links{
+  .mobile-links {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     bottom: 60px;
-    
+
     left: 50%;
     transform: translate(-50%);
   }
-  .menu-links{
+  .menu-links {
     display: none;
   }
-  .name{
+  .name {
     font-size: 45px;
     padding-bottom: 10px;
   }
-
 }
-.title{
+.title {
   display: inline-block;
 }
-.title::before{
+.title::before {
   content: "   ";
 }

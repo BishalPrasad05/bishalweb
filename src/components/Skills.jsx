@@ -170,10 +170,10 @@ function Skills() {
           <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
-                <h3>Flask</h3>
+                <h3>Solidity</h3>
               </div>
               <div className="skill-image">
-                <img src="./skills/flask-black.png" alt="Flask" />
+                <img src="./skills/solidity.png" alt="Solidity" />
               </div>
             </div>
             <div className="skill-level">
@@ -183,10 +183,10 @@ function Skills() {
           <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
-                <h3>Netlify</h3>
+                <h3>React</h3>
               </div>
               <div className="skill-image">
-                <img src="./skills/netlify.png" alt="netlify" />
+                <img src="./skills/reactjs.png" alt="ReactJs" />
               </div>
             </div>
             <div className="skill-level">

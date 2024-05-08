@@ -34,10 +34,7 @@ function About() {
               my goals.
             </p>
 
-            <a
-              href={"./resume/Bishal_Prasad_resume-1.pdf"}
-              download="Bishal Prasad's Resume"
-            >
+            <a href={"./resume/BishalPrasad05.pdf"} download="BishalPrasad05">
               <button className="resume-button">Download CV</button>
             </a>
           </div>
