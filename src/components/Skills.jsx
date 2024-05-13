@@ -1,6 +1,6 @@
 import "./Skills.css";
 
-import { React, useEffect,useState } from "react";
+import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,13 +14,6 @@ function Skills() {
       delay: 100,
     });
   }, []);
-   const [expanded, setExpanded] = useState(false);
-  const [removeOtherCss, setRemoveOtherCss] = useState(false);
-   // Function to toggle the expanded state
-   const toggleExpand = () => {
-     setExpanded(!expanded);
-     setRemoveOtherCss(!removeOtherCss);
-   };
   return (
     <>
       <div id="skills" className="skills-container">
@@ -29,12 +22,7 @@ function Skills() {
 
           <h6>--Showcasing the tools in my toolkit--</h6>
         </div>
-        <div
-          className={
-            removeOtherCss ? "height-skills-section" : "skills-section"
-          }
-          data-aos="fade-down"
-        >
+        <div className="skills-section" data-aos="fade-down">
           <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
@@ -113,13 +101,7 @@ function Skills() {
               <p>Intermediate</p>
             </div>
           </div>
-          <div
-            className={
-              removeOtherCss
-                ? "skill"
-                : "height-display"
-            }
-          >
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>js</h3>
@@ -132,9 +114,7 @@ function Skills() {
               <p>beginner</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>C</h3>
@@ -147,9 +127,7 @@ function Skills() {
               <p>Intermediate</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>CPP</h3>
@@ -163,9 +141,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>Sqlite</h3>
@@ -178,9 +154,7 @@ function Skills() {
               <p>Intermediate</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>MySql</h3>
@@ -193,9 +167,7 @@ function Skills() {
               <p>Intermediate</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>Solidity</h3>
@@ -208,9 +180,7 @@ function Skills() {
               <p>beginner</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>React</h3>
@@ -223,9 +193,7 @@ function Skills() {
               <p>Beginner</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>Java</h3>
@@ -238,9 +206,7 @@ function Skills() {
               <p>Intermediate</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>Git</h3>
@@ -253,9 +219,7 @@ function Skills() {
               <p>Intermediate</p>
             </div>
           </div>
-          <div className={removeOtherCss
-                ? "skill"
-                : ("skill", "height-display")}>
+          <div className="skill">
             <div className="skill-name-image">
               <div className="skill-name">
                 <h3>GitHub</h3>
@@ -269,15 +233,6 @@ function Skills() {
             </div>
           </div>
         </div>
-        <button
-          className="skills-button"
-          data-aos="fade-up"
-          onClick={toggleExpand}
-        >
-          {expanded ? "Collapse" : "Expand"}
-
-          {expanded && <p></p>}
-        </button>
       </div>
     </>
   );
