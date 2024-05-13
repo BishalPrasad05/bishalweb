@@ -241,7 +241,14 @@ a {
   }
   .tab-view{
     width: 350px;
+    border: none;
     margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .commonTab{
+    padding: 20px;
   }
 }
 

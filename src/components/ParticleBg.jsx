@@ -11,6 +11,16 @@ function ParticleBg() {
       id="tsparticles"
       init={loadParticles}
       options={{
+        background: {
+          // "color": "#ff000010",
+          image: "url('./images/intro-bg-min-min.jpg')",
+          filter: "brightness(0.9)",
+          position: "50% 50%",
+          repeat: "no-repeat",
+          size: "cover",
+          height: "100vh",
+          width: "100%",
+        },
         particles: {
           number: {
             value: 108,
@@ -119,16 +129,7 @@ function ParticleBg() {
           },
         },
         retina_detect: true,
-        background: {
-          // "color": "#ff000010",
-          image: "url('./images/intro-bg-min-min.jpg')",
-          filter: "brightness(0.9)",
-          position: "50% 50%",
-          repeat: "no-repeat",
-          size: "cover",
-          height: "100vh",
-          width: "100%",
-        },
+
         fullScreen: {
           enable: true,
           zIndex: -1,
