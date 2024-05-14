@@ -62,7 +62,7 @@ function Contact() {
             </div>
 
             <div className="contact-form">
-              <form name="contact" netlify>
+              <form name="contact" netlify netlify-honeypot="bot-field" hidden>
                 <div className="form-name" data-aos="fade-left">
                   <i className="fa-solid fa-user"></i>
                   <input
@@ -71,34 +71,32 @@ function Contact() {
                     id="name"
                     name="name"
                     placeholder="Name"
+                    required
                   ></input>
                 </div>
-
                 <div className="form-name" data-aos="fade-left">
                   <i className="fa-solid fa-envelope"></i>
 
                   <input
                     className="input-ne"
-                    type="text"
+                    type="email"
                     id="email"
                     name="email"
                     placeholder="Email"
+                    required
                   ></input>
                 </div>
-
                 <div className="form-message" data-aos="fade-up">
                   <textarea
+                    type="text"
                     id="subject"
                     className="scrolll"
                     name="message"
                     placeholder="Write something.."
+                    required
                   ></textarea>
                 </div>
-
-                <button
-                  className="form-button"
-                  type="submit"
-                >
+                <button className="form-button" type="submit">
                   Submit
                 </button>
               </form>

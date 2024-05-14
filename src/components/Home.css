@@ -68,24 +68,22 @@
   color: #c0b2b2;
   font-size: 24px;
   text-decoration: none;
+  padding: 10x;
   font-family: "Montserrat", sans-serif;
   box-shadow: inset 0 0 0 0 #54b3d6;
-  transition: background-color 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .menu-links a:hover {
   color: #e43838;
   cursor: pointer;
-  /* margin-bottom: 30px; */
-  /* background-color: #fff; */
-  border-radius: 20px;
+
+  border-radius: 10px;
   border-top: 2px solid #e43838;
+  border-bottom: 2px solid #e43838;
   font-weight: bold;
-  /* padding: 10px; */
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 50px;
-  /* box-shadow: inset 0 0 0 3px #54b3d6; */
+
+  margin-bottom: 20px;
   transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 

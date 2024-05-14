@@ -31,7 +31,7 @@ function Home() {
           </a>
 
           <a
-            href="https://www.hackerrank.com/bishalprasad2511"
+            href="https://www.hackerrank.com/bishalprasad05"
             target="_blank"
             rel="noreferrer"
           >
