@@ -1,11 +1,31 @@
 import "./Contact.css";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+// import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_tv6d98o", "template_3jfwo9g", form.current, {
+        publicKey: "QeTIXKg2zJ_yCie-z",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -62,7 +82,7 @@ function Contact() {
             </div>
 
             <div className="contact-form">
-              <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+              <form name="contact" ef={form} onSubmit={sendEmail}>
                 <div className="form-name" data-aos="fade-left">
                   <i className="fa-solid fa-user"></i>
                   <input

@@ -33,20 +33,19 @@ function App() {
             setLoading(true);
             setTimeout(() => {
               setCompleted(true);
-            }, 0);
+            }, 1000);
           });
-      }, 0);
+      }, 2000);
     }, []);
 
   return (
     <>
-      {!completed ? ( // Render loading animation if loading is true
+      {!completed ? (
         <div style={{ width: "100%", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "black" }}>
           <div id='load' style={{ width: "60%", height: "60%" }}/>
         </div>
       ) : (
-          // <h1>Loaded</h1>
-        // Render components once loading is false
+         
         <>
           <Home />
           <About />
